@@ -1,0 +1,14 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = ">=2.1, <2.2"
+channels = ">=2.1, <2.2"
+channels-redis = ">=2.3, <2.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
